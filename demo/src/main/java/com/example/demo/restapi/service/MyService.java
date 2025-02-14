@@ -11,7 +11,7 @@ public class MyService {
 
 	@GetMapping("/myService")
 	public String myService() {
-		return "response restController~~~~1";
+		return "response restController~~~~12";
 	}
 	
 }
