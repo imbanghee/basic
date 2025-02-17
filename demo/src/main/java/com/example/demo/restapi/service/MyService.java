@@ -1,5 +1,6 @@
 package com.example.demo.restapi.service;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +11,8 @@ public class MyService {
 
 	@GetMapping("/myService")
 	public String myService() {
-		return "response restController intellij pull test";
+		System.out.println("myService");
+		return "pull test";
 	}
 	
 }
